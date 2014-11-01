@@ -8,7 +8,9 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 /**
+ * The resource which wraps {@link com.kevinhayeswilson.apcs.magpie.IMagpie}'s getGreeting function.
  *
+ * @author Kevin Wilson - khwilson@gmail.com
  */
 @Path("/greeting")
 @Produces(MediaType.APPLICATION_JSON)

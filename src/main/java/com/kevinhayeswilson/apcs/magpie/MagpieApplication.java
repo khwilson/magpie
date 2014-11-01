@@ -32,8 +32,8 @@ public class MagpieApplication extends Application<MagpieConfig> {
                                      .loadClass(magpieConfig.getMagpie())
                                      .newInstance();
         if (!(objMagpie instanceof IMagpie)) {
-            throw new IllegalStateException("You must pass the fully qualified name of your "
-                                            + "class in the yaml's config.");
+            throw new IllegalStateException("You must pass the fully qualified name an IMagpie "
+                                            + "the config yaml.");
         }
         final IMagpie magpie = (IMagpie) objMagpie;
 

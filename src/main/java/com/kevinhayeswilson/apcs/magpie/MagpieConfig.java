@@ -7,7 +7,7 @@ import org.hibernate.validator.constraints.NotEmpty;
 import io.dropwizard.Configuration;
 
 /**
- * Teh config for the {@link com.kevinhayeswilson.apcs.magpie.MagpieApplication}. There is only
+ * The config for the {@link com.kevinhayeswilson.apcs.magpie.MagpieApplication}. There is only
  * one property, which is which implementation of an {@link com.kevinhayeswilson.apcs.magpie
  * .IMagpie} you would like to run, the {@link #magpie} parameter.
  *
