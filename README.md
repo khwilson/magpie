@@ -47,12 +47,12 @@ Extending
 ---------
 
 Suppose that you have a Magpie located at `$MAGPIE`. Then you should do the following:
-1. On the first line of the file, add the package path `package com.kevinhayeswilson.apcs.magpie;`
-2. Make sure your class implements `IMagpie`.
-3. `cp $MAGPIE src/main/java/com/kevinhayeswilson/apcs/magpie`
-4. `echo "magpie: com.kevinhayeswilson.apcs.magpie.MyMagpie" > myConfig.yml` where `MyMagpie` is the name of your `IMagpie` class.
-5. `mvn clean package`
-6. java -jar target/magpie-0.1.jar server myConfig.yml
+#. On the first line of the file, add the package path `package com.kevinhayeswilson.apcs.magpie;`
+#. Make sure your class implements `IMagpie`.
+#. `cp $MAGPIE src/main/java/com/kevinhayeswilson/apcs/magpie`
+#. `echo "magpie: com.kevinhayeswilson.apcs.magpie.MyMagpie" > myConfig.yml` where `MyMagpie` is the name of your `IMagpie` class.
+#. `mvn clean package`
+#. java -jar target/magpie-0.1.jar server myConfig.yml
 
 And now your magpie is up and chatting.
 
